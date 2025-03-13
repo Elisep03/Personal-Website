@@ -1,6 +1,7 @@
 ---
 title: "Elise Pham"
 about:
+  template: trestles
   image: headshot24.jpg
   links: 
     - icon: github
@@ -12,7 +13,8 @@ about:
     - icon: inbox-fill
       text: Email
       url: "mailto:elisepham03@gmail.com"
-    - text: Resume
+    - icon: link
+      text: Resume
       url: "Elise_Resume_25 (1).pdf"
 toc: false
    
