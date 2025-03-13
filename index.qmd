@@ -16,7 +16,6 @@ about:
     - icon: link
       text: Resume
       url: "Elise_Resume_25 (1).pdf"
-toc: false
 ---
 
 ```{r}
