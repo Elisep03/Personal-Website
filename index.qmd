@@ -1,8 +1,7 @@
 ---
-website:
 title: "Elise Pham"
 about:
-  template: trestles  
+  template: trestles 
   image: headshot24.jpg
   links: 
     - icon: github
@@ -10,17 +9,19 @@ about:
       href: "https://github.com/Elisep03"
     - icon: linkedin
       text: LinkedIn
-      url: "https://www.linkedin.com/in/elise-pham/"
+      href: "https://www.linkedin.com/in/elise-pham/"
     - icon: inbox-fill
       text: Email
-      url: "mailto:elisepham03@gmail.com"
+      href: "mailto:elisepham03@gmail.com"
     - icon: link
       text: Resume
-      url: "Elise_Resume_25 (1).pdf"
+      href: "Elise_Resume_25 (1).pdf"
 format:
   html:
-    background-color: "#e2d7f7"
+    backgroundcolor: "#e2d7f7"
+    page-layout: full
 ---
+
 
 ```{r}
 1 + 3
