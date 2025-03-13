@@ -1,7 +1,8 @@
 ---
+website:
 title: "Elise Pham"
 about:
-  template: solana  
+  template: trestles  
   image: headshot24.jpg
   links: 
     - icon: github
@@ -18,7 +19,7 @@ about:
       url: "Elise_Resume_25 (1).pdf"
 format:
   html:
-    backgroundcolor: "#e2d7f7"
+    background-color: "#e2d7f7"
 ---
 
 ```{r}
