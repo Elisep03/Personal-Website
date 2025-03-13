@@ -9,12 +9,15 @@ website:
         text: Home
       - about.qmd
       - Work Experience.qmd
+    background: "#783d5a"
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
-
+    page-layout: full
+   
+    
 editor: visual
 

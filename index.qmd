@@ -16,22 +16,30 @@ about:
     - icon: link
       text: Resume
       href: "Elise_Resume_25 (1).pdf"
-format:
-  html:
-    backgroundcolor: "#e2d7f7"
-    page-layout: full
+toc: false
+
+   
 ---
 
+## About Me
 
-```{r}
-1 + 3
-```
+Hi there! I'm Elise, a fourth-year undergraduate student at UCLA pursuing a major in statistics and data science student. I'm passionate about turning complex data into tangible results and helping people understand more about elaborate concepts in a clear and engaging way. 
 
-```{r}
-print("test")
-```
+I am actively seeking opportunities to develop innovative solutions where I can apply my strong analytical and teamwork skills to derive actionable insights. 
 
-```{r}
-print("elise")
+## Education
 
-```
+University of California, Los Angeles
+
+B.S. Statistics and Data Science
+Sept 2023 - Jun 2025 
+
+## Experience
+
+**Data Analyst** | DataRes Club: Consulting | Oct 2024 - Present
+
+**Math and Computer Science Tutor** | Evergreen Valley College | Aug 2022 - May 2023
+
+**Data Science Research Intern** | San Jose State University | Jun 2022 - Aug 2022
+
+**Technical Support Specialist Intern** | San Jose Digital Inclusion Fund | Jun 2021 - Oct 2021

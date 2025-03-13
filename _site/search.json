@@ -11,6 +11,27 @@
     "href": "index.html",
     "title": "Elise Pham",
     "section": "",
-    "text": "1 + 3\n\n[1] 4\n\n\n\nprint(\"test\")\n\n[1] \"test\"\n\n\n\nprint(\"elise\")\n\n[1] \"elise\""
+    "text": "Hi there! I’m Elise, a fourth-year undergraduate student at UCLA pursuing a major in statistics and data science student. I’m passionate about turning complex data into tangible results and helping people understand more about elaborate concepts in a clear and engaging way.\nI am actively seeking opportunities to develop innovative solutions where I can apply my strong analytical and teamwork skills to derive actionable insights."
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Elise Pham",
+    "section": "",
+    "text": "Hi there! I’m Elise, a fourth-year undergraduate student at UCLA pursuing a major in statistics and data science student. I’m passionate about turning complex data into tangible results and helping people understand more about elaborate concepts in a clear and engaging way.\nI am actively seeking opportunities to develop innovative solutions where I can apply my strong analytical and teamwork skills to derive actionable insights."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Elise Pham",
+    "section": "Education",
+    "text": "Education\nUniversity of California, Los Angeles\nB.S. Statistics and Data Science Sept 2023 - Jun 2025"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Elise Pham",
+    "section": "Experience",
+    "text": "Experience\nData Analyst | DataRes Club: Consulting | Oct 2024 - Present\nMath and Computer Science Tutor | Evergreen Valley College | Aug 2022 - May 2023\nData Science Research Intern | San Jose State University | Jun 2022 - Aug 2022\nTechnical Support Specialist Intern | San Jose Digital Inclusion Fund | Jun 2021 - Oct 2021"
   }
 ]
