@@ -1,10 +1,24 @@
 ---
 title: "Personal Website"
+about:
+  image: headshot24.jpg
+  links: 
+    - icon: github
+      text: Github
+      href: https://github.com/Elisep03
+    - icon: linkedin
+      text: LinkedIn
+      url: https://www.linkedin.com/in/elise-pham/
+    - icon: inbox-fill
+      text: Email
+      url: "mailto:elisepham03@gmail.com"
+    - icon: letter
+      text: Resume
+      url: Elise_Resume_25 (1).pdf
+    
+   
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 ```{r}
 1 + 3
