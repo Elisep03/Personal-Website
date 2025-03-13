@@ -1,3 +1,22 @@
 ---
-title: "Work Experience"
+title: "Projects"
+listing: 
+  - id: music
+    contents: 
+      - posts
+      - "/Projects/*.qmd" 
+    fields: 
+      - title
+      - image
+    categories: false
+    type: grid
+toc: false
+
 ---
+
+## Music Analysis Dashboard
+:::music
+
+:::
+
+##

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Elise Pham - About</title>
+<title>Elise Pham</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +23,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,7 +68,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -78,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Elise Pham</span>
     </a>
   </div>
@@ -89,19 +89,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./Projects.html"> 
+    <a class="nav-link" href="../Projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Coursework.html"> 
+    <a class="nav-link" href="../Coursework.html"> 
 <span class="menu-text">Coursework</span></a>
   </li>  
 </ul>
@@ -121,27 +117,20 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content column-page" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">About</h1>
-</div>
 
 
 
-<div class="quarto-title-meta column-page">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>About this site: me fast</p>
-<pre><code>1 + 1</code></pre>
+<p>I analyzed a music dataset using SQL and visualized it onto a dashboard using PowerBI. Check out my project in detail on my GitHub.</p>
+<p>```{sql connection=} – # of albums with certifications WITH title AS ( SELECT Album_ID,<br>
+CASE WHEN [US_sales_(m)] &gt;= 10 THEN ‘DIAMOND’ WHEN [US_sales_(m)] &gt;= 2 THEN ‘MULTI-PLATINUM’ WHEN [US_sales_(m)] &gt;= 1 THEN ‘PLATINUM’ WHEN [US_sales_(m)] &gt;= 0.5 THEN ‘GOLD’ ELSE ‘NA’ END AS Sales_Certification FROM Album )</p>
+<p>SELECT title.Sales_Certification, COUNT(*) AS [Number of Albums] FROM Album a JOIN title ON a.Album_ID = title.Album_ID GROUP BY title.Sales_Certification ORDER BY [Number of Albums] ASC;</p>
+<p>– total tour attendance SELECT sum(Attendance) AS Total_Attendance FROM Tour</p>
+<p>– breakdown by artist SELECT Artist.Artist, sum(Attendance) AS Total_Attendance FROM Tour JOIN Artist Artist ON Artist.Artist_ID = Tour.Artist_ID GROUP BY Artist.Artist;</p>
+<p>– breakdown by tour name SELECT Artist.Artist, Tour_name, sum(Attendance) AS Total_Attendance FROM Tour JOIN Artist Artist ON Artist.Artist_ID = Tour.Artist_ID GROUP BY Artist.Artist, Tour.Tour_name ORDER BY Artist.Artist ASC;</p>
+<p>– top 3 cities SELECT TOP 3 sum(Show.Revenue_$) AS Total_Revenue, City.City FROM Show JOIN Venue Venue ON Show.Venue_ID = Venue.Venue_ID JOIN City City ON Venue.City_ID = City.City_ID GROUP BY City.City ORDER BY Total_Revenue DESC;</p>
+<p>– frequency of album type Select Album_Type.Album_type, count(Album_Type.Album_type) AS Album_Frequency FROM Album JOIN Album_Type Album_Type ON Album.Album_type_ID = Album_Type.Album_type_ID GROUP BY Album.Album_type_ID, Album_Type.Album_type;</p>
+<p>– most popular artist from each country (determined by tour show revenue)</p>
+<p>WITH Revenue_Per_Artist AS ( SELECT Artist.Artist, Country.Country, SUM(Show.Revenue_$) AS Total_Revenue FROM Artist JOIN Tour ON Artist.Artist_ID = Tour.Artist_ID JOIN Show ON Tour.Tour_ID = Show.Tour_ID JOIN Venue ON Show.Venue_ID = Venue.Venue_ID JOIN City ON Venue.City_ID = City.City_ID JOIN Country ON City.Country_ID = Country.Country_ID GROUP BY Artist.Artist, Country.Country ), Ranked_Revenue AS ( SELECT Artist, Country, Total_Revenue, ROW_NUMBER() OVER (PARTITION BY Country ORDER BY Total_Revenue DESC) AS rn FROM Revenue_Per_Artist ) SELECT Artist, Country, Total_Revenue FROM Ranked_Revenue WHERE rn = 1 AND Total_Revenue IS NOT NULL ORDER BY Country; ```</p>
 
 
 
