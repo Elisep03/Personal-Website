@@ -15,7 +15,7 @@ about:
       href: "mailto:elisepham03@gmail.com"
     - icon: link
       text: Resume
-      href: "resume.pdf"
+      href: "https://drive.google.com/file/d/1aQyCNd9Ev9wVKMlR7aH6i-lgAPGR0WzB/view?usp=sharing"
 toc: false
 
    
