@@ -15,7 +15,7 @@ about:
       href: "mailto:elisepham03@gmail.com"
     - icon: link
       text: Resume
-      href: "Elise_Resume_25%20(1).pdf"
+      href: "resume.pdf"
 toc: false
 
    
