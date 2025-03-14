@@ -10,9 +10,7 @@ toc: false
 Technologies: Python, Gemini Google AI
 
 - Designed a 3-step input-processing-output pipeline using Goose, transforming vague user inputs into actionable tasks
-
 - Delivered detailed AI-generated justifications for each task, explain reasoning behind 4+ task recommendations
-
 - Automated task prioritization to optimize home improvement plans, reducing planning time by 70% compared to manual research
 
 ### [NBA 2023-2024 Games Prediction | Nov 2024 - Dec 2024](https://drive.google.com/file/d/1EbalQXfNLGfWWxu8FHoGZoE0nMy6yOZQ/view?usp=sharing)
