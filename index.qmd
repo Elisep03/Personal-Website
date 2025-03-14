@@ -23,16 +23,17 @@ toc: false
 
 ## About Me
 
-Hi there! I'm Elise, a fourth-year undergraduate student at UCLA pursuing a major in statistics and data science student. I'm passionate about turning complex data into tangible results and helping people understand more about elaborate concepts in a clear and engaging way. 
+Hi there! I'm Elise, a fourth-year undergraduate student at UCLA pursuing a degree in statistics and data science. I'm passionate about turning **complex data into tangible results** and helping people understand more about elaborate concepts in a **clear and engaging way**. 
 
-I am actively seeking opportunities to develop innovative solutions where I can apply my strong analytical and teamwork skills to derive actionable insights. 
+I am **actively seeking opportunities** to develop innovative solutions where I can apply my **strong analytical and teamwork skills** to derive actionable insights. 
+
+My interests include hiking, traveling, cafe hopping, watching animated shows, and collecting trinkets of all kinds!
 
 ## Education
 
-University of California, Los Angeles
+**University of California, Los Angeles**
 
-B.S. Statistics and Data Science
-Sept 2023 - Jun 2025 
+*B.S. Statistics and Data Science* | Sept 2023 - Jun 2025 
 
 ## Experience
 

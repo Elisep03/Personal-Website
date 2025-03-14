@@ -11,21 +11,21 @@
     "href": "index.html",
     "title": "Elise Pham",
     "section": "",
-    "text": "Hi there! I’m Elise, a fourth-year undergraduate student at UCLA pursuing a major in statistics and data science student. I’m passionate about turning complex data into tangible results and helping people understand more about elaborate concepts in a clear and engaging way.\nI am actively seeking opportunities to develop innovative solutions where I can apply my strong analytical and teamwork skills to derive actionable insights."
+    "text": "Hi there! I’m Elise, a fourth-year undergraduate student at UCLA pursuing a degree in statistics and data science. I’m passionate about turning complex data into tangible results and helping people understand more about elaborate concepts in a clear and engaging way.\nI am actively seeking opportunities to develop innovative solutions where I can apply my strong analytical and teamwork skills to derive actionable insights.\nMy interests include hiking, traveling, cafe hopping, watching animated shows, and collecting trinkets of all kinds!"
   },
   {
     "objectID": "index.html#about-me",
     "href": "index.html#about-me",
     "title": "Elise Pham",
     "section": "",
-    "text": "Hi there! I’m Elise, a fourth-year undergraduate student at UCLA pursuing a major in statistics and data science student. I’m passionate about turning complex data into tangible results and helping people understand more about elaborate concepts in a clear and engaging way.\nI am actively seeking opportunities to develop innovative solutions where I can apply my strong analytical and teamwork skills to derive actionable insights."
+    "text": "Hi there! I’m Elise, a fourth-year undergraduate student at UCLA pursuing a degree in statistics and data science. I’m passionate about turning complex data into tangible results and helping people understand more about elaborate concepts in a clear and engaging way.\nI am actively seeking opportunities to develop innovative solutions where I can apply my strong analytical and teamwork skills to derive actionable insights.\nMy interests include hiking, traveling, cafe hopping, watching animated shows, and collecting trinkets of all kinds!"
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
     "title": "Elise Pham",
     "section": "Education",
-    "text": "Education\nUniversity of California, Los Angeles\nB.S. Statistics and Data Science Sept 2023 - Jun 2025"
+    "text": "Education\nUniversity of California, Los Angeles\nB.S. Statistics and Data Science | Sept 2023 - Jun 2025"
   },
   {
     "objectID": "index.html#experience",
@@ -39,7 +39,7 @@
     "href": "Projects.html",
     "title": "Projects",
     "section": "",
-    "text": "test"
+    "text": "Home Improvement AI Workflow | Feb 2025 - March 2025\nGithub repository\nTechnologies: Python, Gemini Google AI\n\nDesigned a 3-step input-processing-output pipeline using Goose, transforming vague user inputs into actionable tasks\nDelivered detailed AI-generated justifications for each task, explain reasoning behind 4+ task recommendations\nAutomated task prioritization to optimize home improvement plans, reducing planning time by 70% compared to manual research\n\n\n\nNBA 2023-2024 Games Prediction | Nov 2024 - Dec 2024\nGithub repository\nTechnologies: Python, Google Colab, scikit-learn, Matplotlib, seaborn\n\nDeveloped 3 predictive features for game outcomes using 5 machine learning algorithms, such as Random Forest and SVM.\n\nPreprocessed 2,460 entries by performing EDA, developing weighted functions, and classifying observations as binary outputs.\n\nTuned models using PCA and K-fold cross-validation, achieving 70% testing accuracy for Logistic Regression.\n\n\n\nMusic Analysis Dashboard | Aug 2024 - Aug 2024\nGithub repository\nTechnologies: SQL, PowerBI\n\nDesigned a PowerBI dashboard with visual graphs to analyze trends from a music database of 2,500+ entries\nDeveloped 10 SQL queries using joins, CTEs, aggregate functions, and more for data manipulation\nAnalyzed data-driven decision making and risk management with 5 clear, actionable insight\n\n\n\nMultiple Linear Regression: Solar Radiation Prediction | Feb 2024 - Mar 2024\nTechnologies: R, RStudio\n\nPredicted Solar Radiation level through a multiple linear regression model and 3 R visual diagnostic plots\nDetermined relationship and distribution of 9 variables after data mining and statistical packages utilization\nConcluded that an increase in temperature resulted in an increase of radiation by 12.474 units\n\n\n\nBinary Image Cats and Dogs Classification | Jan 2024 - Mar 2024\nGithub repository\nTechnologies: Python, PyTorch, TensorFlow, Google Colab\n\nCollaborated with a team of 10 to program a model that analyzed whether an image was a cat or dog, testing on 2000 images\nImplemented machine learning models and CNNs, leveraging techniques like data regularization to improve generalization\nCompiled individual models and algorithms onto Google Colab to result in an 80% project accuracy rate"
   },
   {
     "objectID": "Projects.html#music-analysis-dashboard",
@@ -68,5 +68,19 @@
     "title": "Elise Pham",
     "section": "",
     "text": "I analyzed a music dataset using SQL and visualized it onto a dashboard using PowerBI. Check out my project in detail on my GitHub.\n```{sql connection=} – # of albums with certifications WITH title AS ( SELECT Album_ID,\nCASE WHEN [US_sales_(m)] &gt;= 10 THEN ‘DIAMOND’ WHEN [US_sales_(m)] &gt;= 2 THEN ‘MULTI-PLATINUM’ WHEN [US_sales_(m)] &gt;= 1 THEN ‘PLATINUM’ WHEN [US_sales_(m)] &gt;= 0.5 THEN ‘GOLD’ ELSE ‘NA’ END AS Sales_Certification FROM Album )\nSELECT title.Sales_Certification, COUNT(*) AS [Number of Albums] FROM Album a JOIN title ON a.Album_ID = title.Album_ID GROUP BY title.Sales_Certification ORDER BY [Number of Albums] ASC;\n– total tour attendance SELECT sum(Attendance) AS Total_Attendance FROM Tour\n– breakdown by artist SELECT Artist.Artist, sum(Attendance) AS Total_Attendance FROM Tour JOIN Artist Artist ON Artist.Artist_ID = Tour.Artist_ID GROUP BY Artist.Artist;\n– breakdown by tour name SELECT Artist.Artist, Tour_name, sum(Attendance) AS Total_Attendance FROM Tour JOIN Artist Artist ON Artist.Artist_ID = Tour.Artist_ID GROUP BY Artist.Artist, Tour.Tour_name ORDER BY Artist.Artist ASC;\n– top 3 cities SELECT TOP 3 sum(Show.Revenue_$) AS Total_Revenue, City.City FROM Show JOIN Venue Venue ON Show.Venue_ID = Venue.Venue_ID JOIN City City ON Venue.City_ID = City.City_ID GROUP BY City.City ORDER BY Total_Revenue DESC;\n– frequency of album type Select Album_Type.Album_type, count(Album_Type.Album_type) AS Album_Frequency FROM Album JOIN Album_Type Album_Type ON Album.Album_type_ID = Album_Type.Album_type_ID GROUP BY Album.Album_type_ID, Album_Type.Album_type;\n– most popular artist from each country (determined by tour show revenue)\nWITH Revenue_Per_Artist AS ( SELECT Artist.Artist, Country.Country, SUM(Show.Revenue_$) AS Total_Revenue FROM Artist JOIN Tour ON Artist.Artist_ID = Tour.Artist_ID JOIN Show ON Tour.Tour_ID = Show.Tour_ID JOIN Venue ON Show.Venue_ID = Venue.Venue_ID JOIN City ON Venue.City_ID = City.City_ID JOIN Country ON City.Country_ID = Country.Country_ID GROUP BY Artist.Artist, Country.Country ), Ranked_Revenue AS ( SELECT Artist, Country, Total_Revenue, ROW_NUMBER() OVER (PARTITION BY Country ORDER BY Total_Revenue DESC) AS rn FROM Revenue_Per_Artist ) SELECT Artist, Country, Total_Revenue FROM Ranked_Revenue WHERE rn = 1 AND Total_Revenue IS NOT NULL ORDER BY Country; ```"
+  },
+  {
+    "objectID": "Coursework.html",
+    "href": "Coursework.html",
+    "title": "Technical Coursework",
+    "section": "",
+    "text": "Term\nCourses\n\n\n\n\nSpring 2025\nSTATS 21: Python and Other Technologies for Data Science\n\n\nSpring 2025\nSTATS 141XP: Practice of Statistical Consulting\n\n\nWinter 2025\nSTATS 140XP: Practice of Statistical Consulting\n\n\nFall 2024\nSTATS 102C: Introduction to Monte Carlo Methods\n\n\nFall 2024\nSTATS 101C: Introduction to Computation and Optimization for Statistics\n\n\nFall 2024\nCS 32: Introduction to Computer Science II\n\n\nSummer 2024\nCS 31: Introduction to Computer Science I\n\n\nSummer 2024\nDH 101: Introduction to Digital Humanities\n\n\nSpring 2024\nSTATS 102B: Introduction to Computation and Optimization for Statistics\n\n\nSpring 2024\nSTATS 101B: Introduction to Design and Analysis of Experiment\n\n\nSpring 2024\nSTATS 100C: Linear Models\n\n\nWinter 2024\nSTATS 102A: Introduction to Computational Statistics with R\n\n\nWinter 2024\nSTATS 101A: Introduction to Data Analysis and Regression\n\n\nWinter 2024\nSTATS 100B: Introduction to Mathematical Statistics\n\n\nFall 2023\nSTATS 100A: Introduction to Probability\n\n\nFall 2023\nSTATS 20: Introduction to Statistical Programming with R"
+  },
+  {
+    "objectID": "Projects.html#projects",
+    "href": "Projects.html#projects",
+    "title": "Projects",
+    "section": "",
+    "text": "Research Paper\nTechnologies: Python, Google Colab, scikit-learn, Matplotlib, seaborn\n\nDeveloped 3 predictive features for game outcomes using 5 machine learning algorithms, such as Random Forest and SVM.\n\nPreprocessed 2,460 entries by performing EDA, developing weighted functions, and classifying observations as binary outputs.\n\nTuned models using PCA and K-fold cross-validation, achieving 70% testing accuracy for Logistic Regression."
   }
 ]

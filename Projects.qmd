@@ -1,22 +1,51 @@
 ---
 title: "Projects"
-listing: 
-  - id: music
-    contents: 
-      - posts
-      - "/Projects/*.qmd" 
-    fields: 
-      - title
-      - image
-    categories: false
-    type: grid
 toc: false
 
 ---
 
-## Music Analysis Dashboard
-:::music
+### Home Improvement AI Workflow | Feb 2025 - March 2025
+[Github repository](https://github.com/Elisep03/Chelle-AI-workflow/blob/main/generate_home_improve_plan.py)
 
-:::
+Technologies: Python, Gemini Google AI
 
-##
+- Designed a 3-step input-processing-output pipeline using Goose, transforming vague user inputs into actionable tasks
+
+- Delivered detailed AI-generated justifications for each task, explain reasoning behind 4+ task recommendations
+
+- Automated task prioritization to optimize home improvement plans, reducing planning time by 70% compared to manual research
+
+### [NBA 2023-2024 Games Prediction | Nov 2024 - Dec 2024](https://drive.google.com/file/d/1EbalQXfNLGfWWxu8FHoGZoE0nMy6yOZQ/view?usp=sharing)
+[Github repository](https://github.com/Elisep03/nba-dataset/blob/main/Copy_of_stats101c_project.ipynb)
+
+Technologies: Python, Google Colab, scikit-learn, Matplotlib, seaborn  
+
+- Developed 3 predictive features for game outcomes using 5 machine learning algorithms, such as Random Forest and SVM.  
+- Preprocessed 2,460 entries by performing EDA, developing weighted functions, and classifying observations as binary outputs.  
+- Tuned models using PCA and K-fold cross-validation, achieving 70% testing accuracy for Logistic Regression.
+
+### Music Analysis Dashboard | Aug 2024 - Aug 2024
+[Github repository](https://github.com/Elisep03/music-dashboard)
+
+Technologies: SQL, PowerBI 
+
+- Designed a PowerBI dashboard with visual graphs to analyze trends from a music database of 2,500+ entries
+- Developed 10 SQL queries using joins, CTEs, aggregate functions, and more for data manipulation
+- Analyzed data-driven decision making and risk management with 5 clear, actionable insight
+
+### [Multiple Linear Regression: Solar Radiation Prediction | Feb 2024 - Mar 2024](https://drive.google.com/file/d/1v9TaCbWcfMPLSkCNR21tTzCQjDzR8NU6/view?usp=sharing)
+
+Technologies: R, RStudio 
+
+- Predicted Solar Radiation level through a multiple linear regression model and 3 R visual diagnostic plots
+- Determined relationship and distribution of 9 variables after data mining and statistical packages utilization
+- Concluded that an increase in temperature resulted in an increase of radiation by 12.474 units
+
+### Binary Image Cats and Dogs Classification | Jan 2024 - Mar 2024
+[Github repository](https://github.com/Elisep03/Binary-Image-Classification/blob/main/Project_for_NSDCWinter2024.ipynb)
+
+Technologies: Python, PyTorch, TensorFlow, Google Colab 
+
+- Collaborated with a team of 10 to program a model that analyzed whether an image was a cat or dog, testing on 2000 images
+- Implemented machine learning models and CNNs, leveraging techniques like data regularization to improve generalization
+- Compiled individual models and algorithms onto Google Colab to result in an 80% project accuracy rate

@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -68,65 +66,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-music .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-music'] = new List('listing-music', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -158,7 +98,7 @@ window.Quarto = {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./Coursework.html"> 
-<span class="menu-text">Coursework</span></a>
+<span class="menu-text">Technical Coursework</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -194,35 +134,61 @@ window.Quarto = {
 </header>
 
 
-<section id="music-analysis-dashboard" class="level2">
-<h2 class="anchored" data-anchor-id="music-analysis-dashboard">Music Analysis Dashboard</h2>
-<div class="music">
-
-</div>
+<section id="home-improvement-ai-workflow-feb-2025---march-2025" class="level3">
+<h3 class="anchored" data-anchor-id="home-improvement-ai-workflow-feb-2025---march-2025">Home Improvement AI Workflow | Feb 2025 - March 2025</h3>
+<p><a href="https://github.com/Elisep03/Chelle-AI-workflow/blob/main/generate_home_improve_plan.py">Github repository</a></p>
+<p>Technologies: Python, Gemini Google AI</p>
+<ul>
+<li><p>Designed a 3-step input-processing-output pipeline using Goose, transforming vague user inputs into actionable tasks</p></li>
+<li><p>Delivered detailed AI-generated justifications for each task, explain reasoning behind 4+ task recommendations</p></li>
+<li><p>Automated task prioritization to optimize home improvement plans, reducing planning time by 70% compared to manual research</p></li>
+</ul>
 </section>
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section"></h2>
-
+<section id="nba-2023-2024-games-prediction-nov-2024---dec-2024" class="level3">
+<h3 class="anchored" data-anchor-id="nba-2023-2024-games-prediction-nov-2024---dec-2024"><a href="https://drive.google.com/file/d/1EbalQXfNLGfWWxu8FHoGZoE0nMy6yOZQ/view?usp=sharing">NBA 2023-2024 Games Prediction | Nov 2024 - Dec 2024</a></h3>
+<p><a href="https://github.com/Elisep03/nba-dataset/blob/main/Copy_of_stats101c_project.ipynb">Github repository</a></p>
+<p>Technologies: Python, Google Colab, scikit-learn, Matplotlib, seaborn</p>
+<ul>
+<li>Developed 3 predictive features for game outcomes using 5 machine learning algorithms, such as Random Forest and SVM.<br>
+</li>
+<li>Preprocessed 2,460 entries by performing EDA, developing weighted functions, and classifying observations as binary outputs.<br>
+</li>
+<li>Tuned models using PCA and K-fold cross-validation, achieving 70% testing accuracy for Logistic Regression.</li>
+</ul>
+</section>
+<section id="music-analysis-dashboard-aug-2024---aug-2024" class="level3">
+<h3 class="anchored" data-anchor-id="music-analysis-dashboard-aug-2024---aug-2024">Music Analysis Dashboard | Aug 2024 - Aug 2024</h3>
+<p><a href="https://github.com/Elisep03/music-dashboard">Github repository</a></p>
+<p>Technologies: SQL, PowerBI</p>
+<ul>
+<li>Designed a PowerBI dashboard with visual graphs to analyze trends from a music database of 2,500+ entries</li>
+<li>Developed 10 SQL queries using joins, CTEs, aggregate functions, and more for data manipulation</li>
+<li>Analyzed data-driven decision making and risk management with 5 clear, actionable insight</li>
+</ul>
+</section>
+<section id="multiple-linear-regression-solar-radiation-prediction-feb-2024---mar-2024" class="level3">
+<h3 class="anchored" data-anchor-id="multiple-linear-regression-solar-radiation-prediction-feb-2024---mar-2024"><a href="https://drive.google.com/file/d/1v9TaCbWcfMPLSkCNR21tTzCQjDzR8NU6/view?usp=sharing">Multiple Linear Regression: Solar Radiation Prediction | Feb 2024 - Mar 2024</a></h3>
+<p>Technologies: R, RStudio</p>
+<ul>
+<li>Predicted Solar Radiation level through a multiple linear regression model and 3 R visual diagnostic plots</li>
+<li>Determined relationship and distribution of 9 variables after data mining and statistical packages utilization</li>
+<li>Concluded that an increase in temperature resulted in an increase of radiation by 12.474 units</li>
+</ul>
+</section>
+<section id="binary-image-cats-and-dogs-classification-jan-2024---mar-2024" class="level3">
+<h3 class="anchored" data-anchor-id="binary-image-cats-and-dogs-classification-jan-2024---mar-2024">Binary Image Cats and Dogs Classification | Jan 2024 - Mar 2024</h3>
+<p><a href="https://github.com/Elisep03/Binary-Image-Classification/blob/main/Project_for_NSDCWinter2024.ipynb">Github repository</a></p>
+<p>Technologies: Python, PyTorch, TensorFlow, Google Colab</p>
+<ul>
+<li>Collaborated with a team of 10 to program a model that analyzed whether an image was a cat or dog, testing on 2000 images</li>
+<li>Implemented machine learning models and CNNs, leveraging techniques like data regularization to improve generalization</li>
+<li>Compiled individual models and algorithms onto Google Colab to result in an 80% project accuracy rate</li>
+</ul>
 
 
 </section>
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-music">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1741855392716" data-listing-reading-time-sort="3" data-listing-word-count-sort="458">
-<a href="./Projects/music.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./Projects/music.avif" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

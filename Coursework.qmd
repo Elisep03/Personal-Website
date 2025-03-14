@@ -1,3 +1,26 @@
 ---
-title: "Coursework"
+title: "Technical Coursework"
 ---
+
+|Term|Courses|
+|------|------|
+| Spring 2025| STATS 21: Python and Other Technologies for Data Science|
+| Spring 2025| STATS 141XP: Practice of Statistical Consulting|
+| Winter 2025| STATS 140XP: Practice of Statistical Consulting|
+| Fall 2024| STATS 102C: Introduction to Monte Carlo Methods|
+| Fall 2024 | STATS 101C: Introduction to Computation and Optimization for Statistics|
+| Fall 2024 | CS 32: Introduction to Computer Science II|
+| Summer 2024 | CS 31: Introduction to Computer Science I|
+| Summer 2024 | DH 101: Introduction to Digital Humanities|
+| Spring 2024 | STATS 102B: Introduction to Computation and Optimization for Statistics|
+| Spring 2024 | STATS 101B: Introduction to Design and Analysis of Experiment|
+| Spring 2024 | STATS 100C: Linear Models|
+| Winter 2024 | STATS 102A: Introduction to Computational Statistics with R	|
+| Winter 2024 | STATS 101A: Introduction to Data Analysis and Regression|
+| Winter 2024 | STATS 100B: Introduction to Mathematical Statistics|
+| Fall 2023 | STATS 100A: Introduction to Probability|
+| Fall 2023 | STATS 20: Introduction to Statistical Programming with R	|
+
+
+
+:  {tbl-colwidths="[25,25]"}
