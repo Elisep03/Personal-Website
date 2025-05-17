@@ -8,7 +8,7 @@ title: "Technical Coursework"
 | Spring 2025| STATS 141XP: Practice of Statistical Consulting|
 | Winter 2025| STATS 140XP: Practice of Statistical Consulting|
 | Fall 2024| STATS 102C: Introduction to Monte Carlo Methods|
-| Fall 2024 | STATS 101C: Introduction to Computation and Optimization for Statistics|
+| Fall 2024 | STATS 101C: Introduction to Statistical Models and Data Mining
 | Fall 2024 | CS 32: Introduction to Computer Science II|
 | Summer 2024 | CS 31: Introduction to Computer Science I|
 | Summer 2024 | DH 101: Introduction to Digital Humanities|
